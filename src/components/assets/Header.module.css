@@ -1,0 +1,18 @@
+.Header {
+  height: 10vh;
+  background-color: rgb(85, 85, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.Header li {
+  display: inline-block;
+}
+
+.Header input {
+  height: 2rem;
+  width: 8rem;
+  /* cursor: text; */
+}

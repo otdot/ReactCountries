@@ -1,0 +1,17 @@
+.Country {
+  height: 20rem;
+  display: flex;
+  background-color: antiquewhite;
+  flex-direction: row;
+  margin: 3rem;
+}
+
+.Country img {
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+}

@@ -1,0 +1,12 @@
+.Main {
+  min-height: 80vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 10rem;
+}
+
+.Main div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
