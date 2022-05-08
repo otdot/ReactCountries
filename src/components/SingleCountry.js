@@ -1,4 +1,5 @@
 import axios from "axios";
+import "dotenv/config";
 import React, { useState, useEffect } from "react";
 import classes from "./assets/SingleCountry.module.css";
 import { useParams } from "react-router-dom";
@@ -10,13 +11,14 @@ export const SingleCountry = () => {
   const [isLoading, setIsLoading] = useState(false);
   const capital = useParams().capital;
   const country = useParams().country;
+  const api_key = process.env.WEATHER_API_KEY;
 
   useEffect(() => {
     setIsLoading(true);
 
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=9f8e44fdfb46f9dcdb4e14cfe6b161f8
+        `https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=${api_key}
         `
       )
       .then((res) => {
