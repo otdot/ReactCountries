@@ -1,18 +1,30 @@
 .Header {
+  position: sticky;
+  top: 0;
   height: 10vh;
+  min-height: 4rem;
   background-color: rgb(85, 85, 240);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 3rem;
-}
-
-.Header li {
-  display: inline-block;
+  z-index: 2;
 }
 
 .Header input {
+  margin: 1rem;
   height: 2rem;
   width: 8rem;
-  /* cursor: text; */
+  border: 0;
+  border-radius: 5px;
+}
+
+.Header a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.Header a:hover {
+  text-decoration: underline;
 }

@@ -1,0 +1,7 @@
+.watermark {
+  display: inline;
+  float: inline-start;
+  padding: 1rem 0 0 1rem;
+  position: sticky;
+  top: 5rem;
+}

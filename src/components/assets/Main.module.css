@@ -1,9 +1,9 @@
 .Main {
   min-height: 80vh;
-  background-color: white;
+  background-color: rgb(244, 241, 241);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 10rem;
+  margin: 0 15rem;
 }
 
 .Main div {

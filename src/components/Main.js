@@ -1,11 +1,12 @@
 import React from "react";
-import { Countries } from "./Countries";
+// import { Outlet } from "react-router-dom";
 import classes from "./assets/Main.module.css";
+import { Countries } from "./Countries";
 
-export const Main = () => {
+export const Main = ({ searchTerm }) => {
   return (
     <main className={classes.Main}>
-      <Countries />
+      <Countries searchTerm={searchTerm} />
     </main>
   );
 };

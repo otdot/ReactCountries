@@ -1,0 +1,27 @@
+.SingleCountry {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.SingleCountry div {
+  max-height: 24rem;
+  padding: 1rem;
+  flex-direction: row;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  min-height: 15rem;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.SingleCountry div h1 {
+  margin: 1rem 0;
+}
+
+.SingleCountry div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
